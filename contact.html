@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="responsive__header">
+          <nav class="responsive-nav">
+            <ul class="responsive-nav__menu">
+              <li class="responsive-nav__list"><span class="fas fa-bars" id="menu-bar"></span></li>
+              <li class="responsive-nav__list"><a href="" class="responsive-nav__link"><span class="fas fa-phone"></span></a></li>
+              <li class="responsive-nav__list"><a href="" class="responsive-nav__link"><span class="fas fa-map-marker-alt"></span></a></li>
+              <li class="responsive-nav__list"><a href="contact.html" class="responsive-nav__link"><span class="fas fa-envelope"></span></a></li>
+            </ul>
+          </nav>
+          <div class="menu-area open">
+            <ul class="menu">
+              <li class="menu__list"><a href="index.html" class="menu__link"><span class="fas fa-angle-right icon--small"></span>トップページ</a></li>
+              <li class="menu__list"><a href="" class="menu__link"><span class="fas fa-angle-right icon--small"></span>会社概要</a></li>
+              <li class="menu__list"><a href="" class="menu__link"><span class="fas fa-angle-right icon--small"></span>お知らせ</a></li>
+              <li class="menu__list"><a href="" class="menu__link"><span class="fas fa-angle-right icon--small"></span>事業内容</a></li>
+              <li class="menu__list"><a href="" class="menu__link"><span class="fas fa-angle-right icon--small"></span>採用情報</a></li>
+              <li class="menu__list"><a href="contact.html" class="menu__link"><span class="fas fa-angle-right icon--small"></span>お問い合わせ</a></li>
+            </ul>
+          </div>
+          <div class="responsive__header-in">
+            <a class="header-logo__link animetion--opacity" href="index.html"><img class="header-logo" src="images\logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="header__in">
+          <a class="header-logo__link animetion--opacity" href="index.html"><img class="header-logo" src="images\logo.png" alt=""></a>
+          <nav class="global-nav">
+            <ul class="global-nav__menu">
+              <li class="global-nav__list"><a class="global-nav__link animetion--opacity" href="#"><img src="images\navi_01.png" alt=""></a></li>
+              <li class="global-nav__list"><a class="global-nav__link animetion--opacity" href=""><img src="images\navi_02.png" alt=""></a></li>
+              <li class="global-nav__list"><a class="global-nav__link animetion--opacity" href=""><img src="images\navi_03.png" alt=""></a></li>
+              <li class="global-nav__list"><a class="global-nav__link animetion--opacity" href=""><img src="images\navi_04.png" alt=""></a></li>
+              <li class="global-nav__list"><a class="global-nav__link animetion--opacity" href="contact.html"><img src="images\navi_05.png" alt=""></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-view">
+        <div class="main-view__bg">
+          <h2 class="main-view__title">お問い合わせ</h2>
+        </div>
+      </div>
+    <!-- contact-form-start -->
+      <section class="contact-form">
+        <div class="container">
+          <div class="contact-form__area">
+            <h2 class="contact-form__heading heading--design">お問い合わせ</h2>
+            <form action="sent.php">
+              <dl>
+                <dt class="contact-form__text-area"><span class="contact-form__required">必須</span><span class="contact-form__text">お名前</span></dt>
+                  <dd class="contact-form__input">
+                    <input type="text" name="name" class="name input__area" required>
+                  </dd>
+                <dt class="contact-form__text-area"><span class="contact-form__required">必須</span><span class="contact-form__text">電話番号</span></dt>
+                  <dd class="contact-form__input">
+                    <input type="tel" name="tel" class="tel input__area" required>
+                  </dd>
+                <dt class="contact-form__text-area"><span class="contact-form__required input__area">必須</span><span class="contact-form__text">メールアドレス</span></dt>
+                  <dd class="contact-form__input">
+                    <input type="email" name="email" class="email input__area" required>
+                  </dd>
+                <dt class="contact-form__text-area"><span class="contact-form__required">必須</span><span class="contact-form__text">お問い合わせ</span></dt>
+                  <dd class="contact-form__input border-none">
+                    <textarea name="message" class="message input__area--message" required></textarea>
+                  </dd>
+              </dl>
+              <div class="image--center">
+                <button class="btn" type="submit" value="送信"><span class="fas fa-envelope icon--small"></span>メールを送信する</button>
+              </div>
+            </form>
+            <div class="attention__text-area">
+              <p class="attention__text">「必須」は必須項目です。※お問い合わせフォームの必要事項をご記入の上、送信をお願いいたします。</p>
+              <p class="attention__text">※送信後にお問い合わせ完了のメールが届かなかった場合は、メールアドレスが間違っているか、 迷惑メールに分類されている可能性がありますので、いま一度ご確認をお願いいたします。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- contact-form-end -->
+    <!-- pick-up-start -->
+      <div class="pick-up">
+
+        <div class="pick-up__area">
+          <div class="pick-up__in">
+            <a class="pick-up__link" href="">
+              <div class="bg--image1 bg--filter bg--size"></div>
+              <img class="pick-up__item animetion--opacity" src="images\piclogo1.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="pick-up__area">
+          <div class="pick-up__in">
+            <a class="pick-up__link" href="">
+              <div class="bg--image2  bg--filter bg--size"></div>
+              <img class="pick-up__item animetion--opacity" src="images\piclogo2.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="pick-up__area">
+          <div class="pick-up__in">
+            <a class="pick-up__link" href="">
+              <div class="bg--image3  bg--filter bg--size"></div>
+              <img class="pick-up__item animetion--opacity" src="images\piclogo3.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    <!-- pick-up-end -->
+    <!-- contact-start -->
+      <div class="contact">
+        <div class="container">
+          <div class="contact__area">
+            <ul class="contact__menu">
+              <li contact="menu__list"><img src="images\contact_01.png" alt=""></li>
+              <li contact="menu__list"><a href="#"><img class="animetion--opacity" src="images\contact_02.png" alt=""></a></li>
+              <li contact="menu__list"><a href="contact.html"><img class="animetion--opacity" src="images\contact_03.png" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <!-- contact-end -->
+    </main>
+    <footer>
+      <div class="container">
+        <div id="back-to-top">
+          <a href="#"><img src="images\page-top.png" alt=""></a>
+        </div>
+        <div class="footer__area">
+          <nav class="footer-nav">
+            <ul class="footer-nav__menu">
+              <li class="footer-nav__list"><a class="footer-nav__link" href="index.html"><span class="fas fa-arrow-circle-right icon--small"></span>トップページ</a></li>
+              <li class="footer-nav__list"><a class="footer-nav__link" href="#"><span class="fas fa-arrow-circle-right icon--small"></span>会社概要</a></li>
+              <li class="footer-nav__list"><a class="footer-nav__link" href="#"><span class="fas fa-arrow-circle-right icon--small"></span>お知らせ</a></li>
+              <li class="footer-nav__list"><a class="footer-nav__link" href="#"><span class="fas fa-arrow-circle-right icon--small"></span>事業内容</a></li>
+              <li class="footer-nav__list"><a class="footer-nav__link" href="#"><span class="fas fa-arrow-circle-right icon--small"></span>採用情報</a></li>
+              <li class="footer-nav__list"><a class="footer-nav__link" href="contact.html"><span class="fas fa-arrow-circle-right icon--small"></span>お問い合わせ</a></li>
+            </ul>
+          </nav>
+          <div class="footer__in">
+            <p class="footer__text--big"><small>〒900-0036  沖縄県那覇市西3丁目12番1号</small></p>
+            <p class="footer__text--small"><small>© 2019 沖縄ガスリビング株式会社. All rights reserved.</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="http//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="script/slick.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

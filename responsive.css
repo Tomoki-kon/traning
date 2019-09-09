@@ -1,0 +1,109 @@
+  @charset "UTF-8";
+
+  @media screen and (max-width:780px) {
+
+    header {
+      width: 100%;
+      position: fixed;
+      z-index: 10;
+    }
+
+    .header__in {
+      display: none;
+    }
+
+    .responsive__header {
+      display: block;
+    }
+
+    .menu-area {
+      display: none;
+    }
+
+    .responsive__header-in {
+      text-align: center;
+      background-color: #fff;
+      padding: 15px 0;
+    }
+
+    .header__logo--link {
+      display: inline-block;
+    }
+
+    .header-logo {
+      width: 330px;
+    }
+
+    .main-view {
+      margin-top: 150px;
+    }
+
+    .main-view__slide {
+      display: none;
+    }
+
+    .responsive-main-view__slide {
+      display: block;
+    }
+
+    .slide--item {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .contents__area {
+      flex-direction: column;
+    }
+
+    .contents__section {
+      width: 95%;
+      height: 55vh;
+      margin: 0 auto 10px;
+    }
+
+    .pick-up__item {
+      width: 85%;
+    }
+
+    .bg--size {
+      height: 25vh;
+    }
+
+    .contact__menu {
+      flex-direction: column;
+      width: 320px;
+      margin: 0 auto;
+    }
+
+    .footer__area {
+      padding: 20px 0;
+    }
+
+    .footer-nav {
+      display: none;
+    }
+
+    .contact-form {
+      padding: 0 10px;
+    }
+
+
+    .contact-form__text-area {
+      float: none;
+      padding: 5px 0;
+    }
+
+    .contact-form__input {
+      padding: 5px 0;
+      border-bottom: none;
+    }
+
+    .input__area {
+      width: 95%;
+    }
+
+    .input__area--message {
+      width: 95%;
+    }
+
+  }
